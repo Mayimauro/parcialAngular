@@ -1,0 +1,17 @@
+<section>
+  <fieldset>
+    <legend>Gestión de Productos</legend>
+    <form [formGroup]="formulario" (ngSubmit)="agregarProducto()">
+      <label >Nombre de Producto: </label>
+      <input type="text" formControlName="nombre">
+
+      <label >Marca: </label>
+      <input type="text" formControlName="marca" />
+
+      <label>Cantidad: </label>
+      <input type="number" name="cantidad" formControlName="cantidad"/>
+
+      <button type="submit" [disabled]="formulario.invalid">Add Product</button>
+    </form>
+  </fieldset>
+</section>

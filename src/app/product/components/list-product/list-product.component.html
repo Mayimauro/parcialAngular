@@ -1,0 +1,24 @@
+<section>
+  <h2>Lista de Productos</h2>
+  <table>
+    <thead>
+    @if(listaProductos.length == 0)
+    {
+      <label>Agrega productos para verlos</label>
+    }@else {
+      @for (producto of listaProductos; track $index)
+      {
+        <tr>
+          <th>Nombre</th>
+          <label>{{ producto.nombre}}</label>
+          <th>Marca</th>
+          <label>{{ producto.marca}}</label>
+          <th>Cantidad</th>
+          <label>{{ producto.cantidad}}</label>
+        </tr>
+      }
+    }
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>

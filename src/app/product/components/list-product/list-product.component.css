@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+

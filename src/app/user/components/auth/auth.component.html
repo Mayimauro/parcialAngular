@@ -1,0 +1,14 @@
+<section>
+  <fieldset>
+    <legend>Inicio de Sesión</legend>
+    <form [formGroup]="formulario" (ngSubmit)="verificarDatos()">
+      <label>Username: </label>
+      <input type="text" formControlName="nombreUsuario"/>
+
+      <label>Password: </label>
+      <input type="password" formControlName="contrasenia"/>
+
+      <button type="submit" [disabled]="formulario.invalid" >LogIn</button>
+    </form>
+  </fieldset>
+</section>

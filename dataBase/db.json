@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "nombre": "coca",
+      "marca": "manaos",
+      "cantidad": "10",
+      "id": "6315"
+    },
+    {
+      "id": "a428",
+      "nombre": "coca",
+      "marca": "pepsi",
+      "cantidad": 10
+    },
+    {
+      "id": "6d8b",
+      "nombre": "patatas",
+      "marca": "lays",
+      "cantidad": 150
+    }
+  ],
+  "usuario": [
+    {
+      "nombreUsuario": "mati",
+      "contrasenia": "123"
+    }
+  ]
+}
